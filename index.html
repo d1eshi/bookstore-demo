@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bookstore</title>
+
+  <!-- styles -->
   <link rel="stylesheet" href="index.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="output.css">
+
+  <!-- icons -->
+  <script src="https://kit.fontawesome.com/b76667f714.js" crossorigin="anonymous"></script>
   <!-- fonts -->
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
   </style>
+
 </head>
 
 <body>
@@ -34,8 +40,8 @@
 
   <main>
 
-    <section class="cta w-4/5 mx-auto px-10 flex h-[100vh] gap-10 items-center">
-      <div class="">
+    <section class="cta w-4/5 mx-auto px-10 flex h-[100vh] gap-16 items-center">
+      <div class="w-full">
         <img class="w-full object-contain" src="public/images/first-cta.PNG" alt="">
       </div>
       <div class="">
@@ -94,25 +100,50 @@
       <button class="arrow-button right-arrow"><span>&#8250;</span></button>
 
 
-      <h3 class="text-center text-3xl font-bold">Explorá más de 100 libros</h3>
+      <h3 class="text-center text-3xl font-bold mt-8">Explorá más de 100 libros</h3>
     </section>
 
-    <section class="book-player py-20 px-[10em]">
-      <div>
-        <p class="text-2xl font-bold">La ciencia del lenguaje positivo</p>
-        <p class="text-base">Luis Castellanos</p>
+    <section class="player-container flex flex-col items-center mt-40 pb-20 px-[10em]">
+      <div class="player-description gap-8">
+        <div class="max-w-[15em]">
+          <p class="text-2xl font-bold">La ciencia del lenguaje positivo</p>
+          <p class="text-base">Luis Castellanos</p>
+        </div>
+        <div class="max-w-[40em]">
+          <p class="text-3xl font-bold mb-4">La ciencia del <br>lenguaje positivo</p>
+          <p class="text-xl">Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+            wisi enim ad minim
+            veniam, quis nostrud exerci tation ul
+            Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali</p>
+        </div>
       </div>
-      <div>
-        <p class="text-3xl font-bold mb-4">La ciencia del <br>lenguaje positivo</p>
-        <p class="text-xl">Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim
-          veniam, quis nostrud exerci tation ul
-          Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali</p>
-      </div>
-      <div class="player">
-        <h1>player</h1>
+      <div class="player mt-24 flex mx-auto text-white max-w-[23em] max-h-10 w-screen ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="#ffffff"
+            d="M459.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4L288 214.3V256v41.7L459.5 440.6zM256 352V256 128 96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160C4.2 237.5 0 246.5 0 256s4.2 18.5 11.5 24.6l192 160c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V352z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path fill="#ffffff"
+            d="M267.5 440.6c9.5 7.9 22.8 9.7 34.1 4.4s18.4-16.6 18.4-29V96c0-12.4-7.2-23.7-18.4-29s-24.5-3.6-34.1 4.4l-192 160L64 241V96c0-17.7-14.3-32-32-32S0 78.3 0 96V416c0 17.7 14.3 32 32 32s32-14.3 32-32V271l11.5 9.6 192 160z" />
+        </svg>
+
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <path fill="#ffffff"
+            d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path fill="#ffffff"
+            d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4l192 160L256 241V96c0-17.7 14.3-32 32-32s32 14.3 32 32V416c0 17.7-14.3 32-32 32s-32-14.3-32-32V271l-11.5 9.6-192 160z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="#ffffff"
+            d="M52.5 440.6c-9.5 7.9-22.8 9.7-34.1 4.4S0 428.4 0 416V96C0 83.6 7.2 72.3 18.4 67s24.5-3.6 34.1 4.4L224 214.3V256v41.7L52.5 440.6zM256 352V256 128 96c0-12.4 7.2-23.7 18.4-29s24.5-3.6 34.1 4.4l192 160c7.3 6.1 11.5 15.1 11.5 24.6s-4.2 18.5-11.5 24.6l-192 160c-9.5 7.9-22.8 9.7-34.1 4.4s-18.4-16.6-18.4-29V352z" />
+        </svg>
       </div>
     </section>
 
@@ -147,8 +178,8 @@
         <img src="/public/images/character-goal.png" alt="">
       </div>
     </section>
-    <section class="py-6 bg-[#444279] flex justify-center items-center">
-      <img class="max-w-md" src="/public/images/racha-goal-proto.png" alt="">
+    <section class="py-6 bg-[#444279] h-svh flex justify-center items-center">
+      <img class=" h-[80%]" src="/public/images/racha-goal-proto.png" alt="">
       <div class="max-w-56 ml-[-3em]">
         <h3 class="text-[#4080d8] text-2xl text-center mb-7 font-bold">¡MANTEN
           LA RACHA!</h3>
