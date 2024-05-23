@@ -2176,6 +2176,21 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-\[8\] {
+  padding-left: 8;
+  padding-right: 8;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-\[2em\] {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
@@ -2941,7 +2956,6 @@ nav .container-image img {
 }
 
 .sponsors {
-  justify-content: center;
   align-items: center;
   flex-shrink: 0;
   >* {
