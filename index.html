@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  </style>
+</head>
+
+<body>
+  <nav class="flex mt-8 px-10">
+    <div class="flex-1"><img src="public/images/icon-bookstore.PNG" /></div>
+    <div class="hamburger-menu" id="hamburgerMenu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <div class="menu-content" id="menuContent">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">FAQS</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <section class="cta w-4/5 mx-auto px-10 flex h-[100vh] gap-10 items-center">
+      <div class="">
+        <img class="w-full object-contain" src="public/images/first-cta.PNG" alt="">
+      </div>
+      <div class="">
+        <h3 class="text-4xl font-bold mb-4">Aprende <br> para ganar con Bookster</h3>
+        <p class="text-xl font-light  mb-4">¡Descubre un nuevo <br> camino hacia el éxito <br> y el crecimiento <br>
+          personal!
+        </p>
+        <button class="bg-cyan-800 px-4 rounded-lg font-bold text-xl">Get Started</button>
+      </div>
+
+    </section>
+
+    <section class="carousel-container mt-4">
+      <div id="carousel" class="carousel-inner">
+        <div class="carousel-item ">
+          <img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+4" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+5" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+6" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+7" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+8" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+9" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+10" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+11" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/800x400?text=Slide+12" alt="Slide 12">
+        </div>
+      </div>
+      </div>
+      <div class="arrow-button">
+        <button class="arrow-button left-arrow"><span>&#8249;</span></button>
+      </div>
+      <button class="arrow-button right-arrow"><span>&#8250;</span></button>
+
+
+      <h3 class="text-center text-3xl font-bold">Explorá más de 100 libros</h3>
+    </section>
+
+    <section class="book-player py-20 px-[10em]">
+      <div>
+        <p class="text-2xl font-bold">La ciencia del lenguaje positivo</p>
+        <p class="text-base">Luis Castellanos</p>
+      </div>
+      <div>
+        <p class="text-3xl font-bold mb-4">La ciencia del <br>lenguaje positivo</p>
+        <p class="text-xl">Lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+          wisi enim ad minim
+          veniam, quis nostrud exerci tation ul
+          Lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna ali</p>
+      </div>
+      <div class="player">
+        <h1>player</h1>
+      </div>
+    </section>
+
+    <section class="sponsors text-white h-[20vh] flex justify-evenly">
+      <p class="text-3xl font-bold">Appgrade</p>
+      <p class="text-3xl font-bold">EMBIMEDIA</p>
+      <img src="./public/images/Forbes-Logo-white.png" alt="" srcset="">
+      <img src="./public/images/growthx-white-logo.webp" alt="" srcset="">
+      <img src="./public/images/white-logo-growtify.png" alt="" srcset="">
+    </section>
+    <section class="second-cta h-lvh pt-[4em] flex items-start justify-center">
+      <img class="h-full" src="public/images/second-cta.png" alt="" srcset="">
+    </section>
+    <section class="relative pt-8 bg-[#15103d] text-center flex flex-col items-center gap-8">
+      <h3 class="text-2xl font-bold">Logra un objetivo de lectura</h3>
+      <p class="w-2/5 font-light mt-[-1em]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+        nonummy nibh euismod
+        tincid-</p>
+      <div>
+        <div class="flex items-center gap-5">
+          <button class="w-3.5 h-3.5 rounded-full bg-[#2f2a51] leading-[0px]">-</button>
+          <span class="text-4xl font-bold text-amber-300">5</span>
+          <button class="w-3.5 h-3.5 rounded-full bg-[#2f2a51] leading-[0px]">+</button>
+        </div>
+        <p class="text-smo font-bold leading-3 mt-2">Minutos <br> <span class="text-xs font-thin">por día</span></p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-black bg-amber-300 text-[#1a1257] px-2">10 LIBROS POR MES</h3>
+      </div>
+      <button class="max-w-40 bg-[#4082f8] px-3 rounded-lg font-bold text-base mb-[2em] ">Get Started</button>
+      <div class="character-goal_container">
+        <img src="/public/images/character-goal.png" alt="">
+      </div>
+    </section>
+    <section class="py-6 bg-[#444279] flex justify-center items-center">
+      <img class="max-w-md" src="/public/images/racha-goal-proto.png" alt="">
+      <div class="max-w-56 ml-[-3em]">
+        <h3 class="text-[#4080d8] text-2xl text-center mb-7 font-bold">¡MANTEN
+          LA RACHA!</h3>
+        <p>Lorem ipsum dolor sit
+          amet, consectetuer
+          adipiscing elit, sed
+          diam nonummy nibh
+          euismod tincidunt ut
+          laoreet dolore magna
+          aliquam erat volutpat. </p>
+      </div>
+    </section>
+    <section class="review py-6 bg-[#444279] flex flex-col items-center">
+      <img src="/public/images/text-review.PNG" alt="">
+      <div class="grid grid-cols-3 gap-y-24 gap-x-4 px-[4em] mt-16">
+        <div class="text-center bg-[#14133e]  max-h-56">
+          <div class="note ml-16 mb-2 pt-7 pb-4 px-2">
+            <p class="text-cyan-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut
+              laoreet dolore magna</p>
+            <div class="mt-4">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <div class="username">
+            <div class="avatar"></div>
+            <span>Username</span>
+          </div>
+        </div>
+        <div class="text-center bg-[#14133e]  max-h-56">
+          <div class="note ml-16 mb-2 pt-7 pb-4 px-2">
+            <p class="text-cyan-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut
+              laoreet dolore magna</p>
+            <div class="mt-4">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <div class="username">
+            <div class="avatar"></div>
+            <span>Username</span>
+          </div>
+        </div>
+        <div class="text-center bg-[#14133e]  max-h-56">
+          <div class="note ml-16 mb-2 pt-7 pb-4 px-2">
+            <p class="text-cyan-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut
+              laoreet dolore magna</p>
+            <div class="mt-4">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <div class="username">
+            <div class="avatar"></div>
+            <span>Username</span>
+          </div>
+        </div>
+        <div class="text-center bg-[#14133e]  max-h-56">
+          <div class="note ml-16 mb-2 pt-7 pb-4 px-2">
+            <p class="text-cyan-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut
+              laoreet dolore magna</p>
+            <div class="mt-4">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <div class="username">
+            <div class="avatar"></div>
+            <span>Username</span>
+          </div>
+        </div>
+        <div class="text-center bg-[#14133e]  max-h-56">
+          <div class="note ml-16 mb-2 pt-7 pb-4 px-2">
+            <p class="text-cyan-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut
+              laoreet dolore magna</p>
+            <div class="mt-4">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <div class="username">
+            <div class="avatar"></div>
+            <span>Username</span>
+          </div>
+        </div>
+        <div class="text-center bg-[#14133e]  max-h-56">
+          <div class="note ml-16 mb-2 pt-7 pb-4 px-2">
+            <p class="text-cyan-900">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+              euismod tincidunt ut
+              laoreet dolore magna</p>
+            <div class="mt-4">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+          </div>
+          <div class="username">
+            <div class="avatar"></div>
+            <span>Username</span>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+    <section class="bg-[#444279] h-96 pt-28 flex justify-center gap-4">
+      <img class="w-[200px] h-fit cursor-pointer rounded-lg" src="/public/images/icons-store-play-store.png" alt="">
+      <img class=" w-[200px] h-fit cursor-pointer rounded-lg" src="/public/images/icons-store-apple.png" alt="">
+    </section>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
